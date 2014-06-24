@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF521BFE195998F500795D72 /* logo_head.png in Resources */ = {isa = PBXBuildFile; fileRef = DF521BFC195998F500795D72 /* logo_head.png */; };
+		DF521BFF195998F500795D72 /* logo_main.png in Resources */ = {isa = PBXBuildFile; fileRef = DF521BFD195998F500795D72 /* logo_main.png */; };
 		DF84626F1958892E00D88699 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF84626E1958892E00D88699 /* Foundation.framework */; };
 		DF8462711958892E00D88699 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8462701958892E00D88699 /* CoreGraphics.framework */; };
 		DF8462731958892E00D88699 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8462721958892E00D88699 /* UIKit.framework */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF521BFC195998F500795D72 /* logo_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_head.png; path = BlackOut/logo_head.png; sourceTree = "<group>"; };
+		DF521BFD195998F500795D72 /* logo_main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_main.png; path = BlackOut/logo_main.png; sourceTree = "<group>"; };
 		DF84626B1958892E00D88699 /* BlackOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF84626E1958892E00D88699 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DF8462701958892E00D88699 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,37 +89,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DF17676F1959984200C21CF6 /* Tox-UI */ = {
-			isa = PBXGroup;
-			children = (
-				DF1767701959984200C21CF6 /* button icons */,
-				DF1767711959984200C21CF6 /* contact list icons */,
-				DF1767721959984200C21CF6 /* status */,
-			);
-			path = "Tox-UI";
-			sourceTree = "<group>";
-		};
-		DF1767701959984200C21CF6 /* button icons */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "button icons";
-			sourceTree = "<group>";
-		};
-		DF1767711959984200C21CF6 /* contact list icons */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "contact list icons";
-			sourceTree = "<group>";
-		};
-		DF1767721959984200C21CF6 /* status */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = status;
-			sourceTree = "<group>";
-		};
 		DF8462621958892D00D88699 = {
 			isa = PBXGroup;
 			children = (
@@ -195,7 +168,8 @@
 			isa = PBXGroup;
 			children = (
 				DFECD5BF1958A94B009D7784 /* Login_iPad.storyboard */,
-				DF17676F1959984200C21CF6 /* Tox-UI */,
+				DF521BFC195998F500795D72 /* logo_head.png */,
+				DF521BFD195998F500795D72 /* logo_main.png */,
 				DFFABCDE1959181F00C270DC /* MainMenu_iPad.storyboard */,
 			);
 			name = StoryBoards;
@@ -288,6 +262,8 @@
 				DF84628A1958892E00D88699 /* Images.xcassets in Resources */,
 				DFFABCDF1959181F00C270DC /* MainMenu_iPad.storyboard in Resources */,
 				DFECD5C11958A94B009D7784 /* Login_iPad.storyboard in Resources */,
+				DF521BFF195998F500795D72 /* logo_main.png in Resources */,
+				DF521BFE195998F500795D72 /* logo_head.png in Resources */,
 				DF8462791958892E00D88699 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
