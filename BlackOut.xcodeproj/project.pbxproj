@@ -86,7 +86,6 @@
 		DFEB0A1C1958928D0076AAC3 /* UI GUIDELINES.md in Resources */ = {isa = PBXBuildFile; fileRef = DFEB09DC1958928D0076AAC3 /* UI GUIDELINES.md */; };
 		DFEB0A201958931F0076AAC3 /* logo_head.png in Resources */ = {isa = PBXBuildFile; fileRef = DFEB0A1E1958931F0076AAC3 /* logo_head.png */; };
 		DFEB0A211958931F0076AAC3 /* logo_main.png in Resources */ = {isa = PBXBuildFile; fileRef = DFEB0A1F1958931F0076AAC3 /* logo_main.png */; };
-		DFEB0A2619589F070076AAC3 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DFEB0A2519589F070076AAC3 /* bg.png */; };
 		DFEB79A71958B6110015F042 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEB79A61958B6110015F042 /* Security.framework */; };
 		DFECD5C11958A94B009D7784 /* Login_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFECD5BF1958A94B009D7784 /* Login_iPad.storyboard */; };
 		DFFABCDF1959181F00C270DC /* MainMenu_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFABCDE1959181F00C270DC /* MainMenu_iPad.storyboard */; };
@@ -187,7 +186,6 @@
 		DFEB09DC1958928D0076AAC3 /* UI GUIDELINES.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "UI GUIDELINES.md"; sourceTree = "<group>"; };
 		DFEB0A1E1958931F0076AAC3 /* logo_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_head.png; sourceTree = "<group>"; };
 		DFEB0A1F1958931F0076AAC3 /* logo_main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_main.png; sourceTree = "<group>"; };
-		DFEB0A2519589F070076AAC3 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = textures/bg.png; sourceTree = "<group>"; };
 		DFEB79A61958B6110015F042 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		DFECD5C01958A94B009D7784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = BlackOut/Base.lproj/Login_iPad.storyboard; sourceTree = "<group>"; };
 		DFECD7FD1958B24D009D7784 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libcrypto.dylib; sourceTree = "<group>"; };
@@ -307,7 +305,6 @@
 		DFEB09991958928D0076AAC3 /* Tox-UI */ = {
 			isa = PBXGroup;
 			children = (
-				DFEB0A2519589F070076AAC3 /* bg.png */,
 				DFEB0A1D1958931F0076AAC3 /* ToxIcons */,
 				DFEB099A1958928D0076AAC3 /* button icons */,
 				DFEB09B91958928D0076AAC3 /* contact list icons */,
@@ -496,7 +493,6 @@
 			files = (
 				DFEB09F21958928D0076AAC3 /* pause_2x.png in Resources */,
 				DFEB0A071958928D0076AAC3 /* current.png in Resources */,
-				DFEB0A2619589F070076AAC3 /* bg.png in Resources */,
 				DFEB0A201958931F0076AAC3 /* logo_head.png in Resources */,
 				DFEB09FA1958928D0076AAC3 /* yes_2x.png in Resources */,
 				DFEB09DE1958928D0076AAC3 /* arrow_medgrey.svg in Resources */,
